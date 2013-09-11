@@ -107,6 +107,8 @@ module MeatSauce
 
         yield(driver) if block_given?
 
+      rescue => ex
+        say ex.message, :red
       ensure
         # ブラウザ終了
         driver.quit if defined?(driver)
