@@ -13,5 +13,5 @@ module MeatSauce
     end
   end
 
-  MeatSauce.load_thorfiles('lib/meat_sauce')
+#  MeatSauce.load_thorfiles('lib/meat_sauce')
 end
